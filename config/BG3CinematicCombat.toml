@@ -1,0 +1,128 @@
+# ============================================================================
+# BG3 Cinematic Combat - Configuration
+# ============================================================================
+# Place this file next to BG3CinematicCombat.dll in bin/NativeMods/
+# These are the DEFAULTS. If you use MCM (Mod Configuration Menu) ingame,
+# the MCM values override everything here - live, without restarting.
+
+[General]
+Enabled = true
+EnableInDialogue = false
+# Global intensity multiplier (0.0 = no effect, 1.0 = full effect)
+GlobalIntensity = 1.0
+# Master toggle for slow motion during cinematics
+SlowMotion = true
+# Pan the camera toward the victim/target position during kill/crit/hit cams
+PanToTarget = true
+
+# ============================================================================
+# Kill Cam - dramatic close-up + slow motion when an enemy dies
+# ============================================================================
+[KillCam]
+Enabled = true
+# Zoom level (lower = closer). Default game zoom is ~5.0
+Zoom = 1.2
+# Camera pitch in degrees (lower = more dramatic low angle)
+Pitch = 15.0
+# Field of view in degrees (lower = more telephoto/dramatic)
+FOV = 40.0
+# How long to hold the close-up (real seconds, unaffected by slow motion)
+HoldTime = 2.0
+# Time to zoom in (seconds)
+TransitionIn = 0.4
+# Time to zoom back out (seconds)
+TransitionOut = 0.8
+# Slow motion factor while the kill cam runs (1.0 = off, 0.35 = dramatic)
+TimeScale = 0.35
+
+# ============================================================================
+# Critical Hit Cam - quick dramatic zoom on critical hits
+# ============================================================================
+[CritCam]
+Enabled = true
+Zoom = 2.0
+Pitch = 20.0
+FOV = 45.0
+HoldTime = 1.0
+TransitionIn = 0.2
+TransitionOut = 0.5
+TimeScale = 0.6
+
+# ============================================================================
+# Hit Cam - short zoom on normal hits (off by default; can get busy)
+# ============================================================================
+[HitCam]
+Enabled = false
+Zoom = 2.5
+Pitch = 20.0
+FOV = 50.0
+HoldTime = 0.6
+TransitionIn = 0.15
+TransitionOut = 0.4
+TimeScale = 0.8
+
+# ============================================================================
+# Action Cam - shoulder cam from the moment an action starts until it ends.
+# Follows the character during the run-up, catches the hit; a kill or crit
+# upgrades it to the kill/crit cam with slow motion.
+# ============================================================================
+[ActionCam]
+Enabled = true
+Zoom = 2.0
+Pitch = 20.0
+FOV = 55.0
+TransitionIn = 0.35
+TransitionOut = 0.6
+# Safety timeout in seconds if no end-of-action event arrives
+MaxDuration = 8.0
+
+# ============================================================================
+# Follow Cam - third-person camera during combat movement (dash/sprint)
+# ============================================================================
+[FollowCam]
+Enabled = true
+Zoom = 2.0
+# Very low angle to capture the character running
+Pitch = 10.0
+# Wider FOV for sense of speed
+FOV = 65.0
+TransitionIn = 0.3
+TransitionOut = 0.6
+# Minimum camera position change per frame to detect movement
+MovementThreshold = 0.05
+# How many consecutive frames of movement before triggering
+MinFrames = 3
+
+# ============================================================================
+# Spell Cam - wide-angle view for spell effects (disabled by default)
+# ============================================================================
+[SpellCam]
+Enabled = false
+Zoom = 6.0
+Pitch = 40.0
+FOV = 70.0
+HoldTime = 1.5
+TransitionIn = 0.3
+TransitionOut = 0.5
+TimeScale = 1.0
+
+# ============================================================================
+# IPC - Communication with Script Extender Lua mod
+# ============================================================================
+[IPC]
+# Check for kill/crit/hit events every N frames (lower = more responsive)
+PollIntervalFrames = 1
+# Check for MCM settings changes every N frames
+SettingsPollIntervalFrames = 60
+
+# ============================================================================
+# Debug
+# ============================================================================
+[Debug]
+# Show debug overlay with state info
+Overlay = false
+# Log verbosity: 0=trace, 1=debug, 2=info, 3=warn, 4=error
+LogLevel = 2
+# Analysis mode: log camera memory changes ([CamDiff]) and pan diagnostics.
+# Only enable when debugging camera issues.
+TraceCamera = false

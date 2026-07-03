@@ -1,0 +1,10 @@
+{
+    "name": "bg3-cinematic-combat",
+    "version-string": "1.0.0",
+    "dependencies": [
+        "spdlog",
+        "tomlplusplus",
+        "nlohmann-json",
+        "minhook"
+    ]
+}

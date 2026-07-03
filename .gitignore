@@ -1,0 +1,22 @@
+# Build artifacts
+build/
+*.pak
+*.pak.bak
+
+# Third-party tool binaries (get LSLib from https://github.com/Norbyte/lslib)
+tools/
+
+# Release packaging output (published via GitHub Releases / Nexus instead)
+release/
+
+# Legacy sync copy of the pak sources
+ScriptExtender/
+
+# Local backups
+_loose_DataMods_backup*/
+
+# IDE / OS noise
+.vs/
+.vscode/
+*.user
+Thumbs.db

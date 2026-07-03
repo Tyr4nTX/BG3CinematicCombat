@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<contentList>
+    <content contentuid="h021ac5a2gaeb1g5b0ag8801g75ce215032f5" version="1">Sichtfeld in Grad. Niedriger = Tele-Effekt, höher = Weitwinkel.</content>
+    <content contentuid="h026e1583g1553g5809gb42eg235263c20001" version="1">Sichtfeld (FOV)</content>
+    <content contentuid="h035d65f8gd1c6g52b6g9acega80729137b50" version="1">Ausblendzeit</content>
+    <content contentuid="h0557b9c0gbb12g5f0aga674g5e2bded170b4" version="1">Zoom</content>
+    <content contentuid="h064bb22cg173ag5a62g9fc2gba43d0e93b03" version="1">Zoom</content>
+    <content contentuid="h072a7575gaf2dg5333g9af2g5afe20dd42ef" version="1">Zoomstufe der Kinokamera. Niedriger = näher dran (normaler Spielzoom ist ca. 5).</content>
+    <content contentuid="h0cfc8436gceadg5b6bg9f29g9366e40b399e" version="1">Sichtfeld in Grad. Niedriger = Tele-Effekt, höher = Weitwinkel.</content>
+    <content contentuid="h11819384g5cfeg5031gb83fgf15351d5be1f" version="1">Einblendzeit</content>
+    <content contentuid="h14b5a69bgb236g5d20ga9a8gbdda236d05be" version="1">Kill Cam nur bei Feinden</content>
+    <content contentuid="h14e63fa6g5278g521dgad32gf50ae5730f2f" version="1">Zeitlupenfaktor</content>
+    <content contentuid="h1b316796g74dbg5ae8g9375gb055272a557f" version="1">Nur eigene Angriffe</content>
+    <content contentuid="h1beb2567gec9cg5404ga630g76090fb7ca1f" version="1">Mindestabstand zwischen zwei Treffer-Cams, damit es nicht zu viel wird.</content>
+    <content contentuid="h1bf13d66g329fg53e8ga4afg8555a7e97901" version="1">Weitwinkel-Kamera bei Zaubern (experimentell).</content>
+    <content contentuid="h1eeea182g696cg5941gb316g55e69ac180da" version="1">Crit Cam</content>
+    <content contentuid="h1fb91eecgd8d2g589eg98e7g5f049b313d0d" version="1">Kill Cam</content>
+    <content contentuid="h20b39ab1gfd0eg5c1bgbc81g5196f72113a5" version="1">Sicherheitslimit: Nach dieser Zeit zoomt die Kamera auf jeden Fall wieder raus.</content>
+    <content contentuid="h20e9e706g0668g590eg89dege094bf11b6bf" version="1">Sichtfeld in Grad. Niedriger = Tele-Effekt, höher = Weitwinkel.</content>
+    <content contentuid="h212ccc19g2a5eg5c81g9418g77ae959ef076" version="1">Wie stark die Kamera-Effekte wirken (0 = aus, 1 = voll).</content>
+    <content contentuid="h22565faag86cag5b1cgb000gf7670d49291c" version="1">Crit Cam aktiviert</content>
+    <content contentuid="h22a6748eg66fbg5eeaga52fg6ec2f9f863c5" version="1">Zoomstufe der Schulterkamera. Niedriger = näher dran.</content>
+    <content contentuid="h238fccfeg0368g5194gb968gce5c69bdef00" version="1">Wie lange die Kameraeinstellung gehalten wird (Sekunden, Echtzeit).</content>
+    <content contentuid="h250f6bd5g2c0fg53fagae16g26eb5d7bfeb8" version="1">Sekunden bis die Kamera nach der Aktion wieder normal ist.</content>
+    <content contentuid="h271f0466g61f1g5682g9211gb6f9446197de" version="1">Wie lange die Kameraeinstellung gehalten wird (Sekunden, Echtzeit).</content>
+    <content contentuid="h2834251dg9030g561bgbb40gabb06de74791" version="1">Allgemein</content>
+    <content contentuid="h2896caa1g0b3eg5d66g98f5g467c9ba467f0" version="1">Einblendzeit</content>
+    <content contentuid="h29636560g3c24g520cgaf75g89b3b9dddbf8" version="1">Schaltet alle Kinokamera-Effekte an oder aus.</content>
+    <content contentuid="h2f526f8cga7ecg5eafg80e5g27f1c5024a89" version="1">Kamerawinkel (Grad)</content>
+    <content contentuid="h34f66447g9f30g5c48g942ag36824e91fe93" version="1">Maximaldauer (Sekunden)</content>
+    <content contentuid="h377cba48g085ag54eeg8004gd30f3aa36053" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
+    <content contentuid="h3c08d184g6970g541bg8470g2fab36fc17dd" version="1">Kinokamera, wenn ein Gegner durch den Schlag stirbt (Todesstoß).</content>
+    <content contentuid="h3e7d4d11g63f8g52b3gb60dg1ac7b8885280" version="1">Mindest-Frames</content>
+    <content contentuid="h442c95f1g2aa2g5ef2g9671gc5391310cb89" version="1">Sichtfeld (FOV)</content>
+    <content contentuid="h45ffc773g802bg5729g98b8ge83a7bbdb4ef" version="1">Bewegungsschwelle</content>
+    <content contentuid="h486b5020gc319g5e86g928fgd0720c150ba6" version="1">Zeitlupenfaktor: 1.0 = keine Zeitlupe, kleiner = langsamer.</content>
+    <content contentuid="h4e7cad95g2571g53a1gb8f5g4195fbb90780" version="1">Sekunden bis die Schulterkamera dran ist.</content>
+    <content contentuid="h51868eb3g340cg5b3egab9ag414d322a5e23" version="1">Zeitlupe aktiviert</content>
+    <content contentuid="h530cbba1gd7feg5232g84ebge910c458a676" version="1">Haltedauer (Sekunden)</content>
+    <content contentuid="h532dfa8bg2f0fg5d97g9c1bg9b228c040ceb" version="1">Haltedauer (Sekunden)</content>
+    <content contentuid="h5636629dgcba2g5a12g9a5egc7d41a1b4f67" version="1">Sprint/Dash Cam aktiviert</content>
+    <content contentuid="h58ac7be6gb181g5e29gbe93g81d2e2015f2f" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
+    <content contentuid="h59c49488g8d7cg5a5ega251g013510ef144b" version="1">Zoomstufe der Kinokamera. Niedriger = näher dran (normaler Spielzoom ist ca. 5).</content>
+    <content contentuid="h5a8fdd14gc00bg532ag9671gae97fb4b2812" version="1">Sichtfeld (FOV)</content>
+    <content contentuid="h5b8b166eg1f93g5c42ga9f5g456b565d8c1c" version="1">Schulterkamera ab dem Moment, in dem eine Aktion startet: folgt dem Charakter beim Anlauf, zeigt den Treffer und zoomt am Ende wieder raus. Kill/Crit übernehmen mit Zeitlupe.</content>
+    <content contentuid="h5e3aeb64gdf57g5627g9a2cg74c3d092311c" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
+    <content contentuid="h61d554f7g17c3g5f7dg8c83g4368d074bbda" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
+    <content contentuid="h63f47ae0g4149g5b61ga7f5gbcea8a9924f2" version="1">Sekunden bis die Kamera herangezoomt ist.</content>
+    <content contentuid="h671cbfc9g2630g5166g9751gc29ef563f9cd" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
+    <content contentuid="h6950c710g02fag5785gb2f9g5e4f187f43c0" version="1">Kinokamera bei kritischen Treffern.</content>
+    <content contentuid="h72771ed3g3493g57c2ga06fga7b3571b2229" version="1">Haltedauer (Sekunden)</content>
+    <content contentuid="h738adc0dga78fg54e5ga630g76e237660a1d" version="1">Zoomstufe der Kinokamera. Niedriger = näher dran (normaler Spielzoom ist ca. 5).</content>
+    <content contentuid="h768ba53bge72cg55acgb6fcg01132f01f604" version="1">Zoom</content>
+    <content contentuid="h79379574g0170g515ag8d6dg14306e1ddd14" version="1">Keine Kill Cam, wenn ein Gruppenmitglied stirbt.</content>
+    <content contentuid="h7a02eb4ag5f61g5327g9fabg52f376e630b5" version="1">Sekunden bis die Kamera wieder normal ist.</content>
+    <content contentuid="h7b1cd16egfc3ag579dga645ge1a298bc8efb" version="1">Wie viel Kamerabewegung pro Frame als &#x27;Bewegung&#x27; zählt.</content>
+    <content contentuid="h7e981813g81f4g55dfg81d5g6731b60eac65" version="1">Niedriger = Tele-Effekt, dramatischer.</content>
+    <content contentuid="h7edb8a77gbc43g5288g8a94g6eaf6c65ca8d" version="1">Zeitlupenfaktor</content>
+    <content contentuid="h80d72a8cg6c1cg57d5g94e0g7c2cd13d56b8" version="1">Die Kamera dreht sich so, dass der Gegner mittig im Bild ist (Schulterblick). Gilt für Action-, Kill-, Crit- und Treffer-Cam.</content>
+    <content contentuid="h8433cc72g9425g5f67ga2a9g120cf919917b" version="1">Sekunden für die Rückkehr zur normalen Kamera.</content>
+    <content contentuid="h897ef59bg6e0cg5102g852egb930949a7435" version="1">Globale Intensität</content>
+    <content contentuid="h8b055d3dg9d5cg5e52g998dg266cf0f27b4f" version="1">Crit- und Treffer-Cam nur bei Angriffen der eigenen Gruppe.</content>
+    <content contentuid="h8ccad71ag0d85g5c01g84c0gcd7f1993e5aa" version="1">Kill Cam aktiviert</content>
+    <content contentuid="h90ab239cg8a6bg5187g812fg5c6e1a5ff0c8" version="1">Kamera richtet sich auf das Ziel aus</content>
+    <content contentuid="h94183c52g05e0g59dfg9fd5g9e8afcddd6a9" version="1">Zauber Cam</content>
+    <content contentuid="h989c8c9agd8d6g5720gb827ga52d38f24e52" version="1">Zeitlupenfaktor</content>
+    <content contentuid="h9902d106gfd33g576bga87ag564f7def8b09" version="1">Zeitlupenfaktor: 1.0 = keine Zeitlupe, kleiner = langsamer.</content>
+    <content contentuid="h9d639020gcb9ag5625ga3b5g34a7a9d66bfb" version="1">Ausblendzeit</content>
+    <content contentuid="h9e698c47gcaf3g542fgb92egf529266bd0bc" version="1">Sichtfeld in Grad. Niedriger = Tele-Effekt, höher = Weitwinkel.</content>
+    <content contentuid="h9e741606g3c20g581agb589g1c5c8efb1317" version="1">Niedriger = näher dran. Normaler Spielzoom ist ca. 5.</content>
+    <content contentuid="h9e7bd1c4gc5d2g5a47ga566g72a619e37f0f" version="1">Niedriger Winkel = dramatischer.</content>
+    <content contentuid="h9f1b5c65gc1f3g5a10g8bfega264fabf18f3" version="1">Wie lange die Nahaufnahme gehalten wird (Echtzeit).</content>
+    <content contentuid="ha01cb027ga115g5c0bgb318gc5c075c5f1dc" version="1">1.0 = keine Zeitlupe, 0.35 = dramatisch langsam.</content>
+    <content contentuid="ha23e8fcagc1cbg5b98g84afga5690c60bd5a" version="1">Sichtfeld (FOV)</content>
+    <content contentuid="ha774f35cg4834g5f3dg8042g26ecb5394c0e" version="1">Zoom</content>
+    <content contentuid="ha9865e05gdb96g5369gaa24ga0f22a817527" version="1">Kamerawinkel (Grad)</content>
+    <content contentuid="haa3e3dfagd828g5ea0gbbf0g48598c04ed2d" version="1">Ausblendzeit</content>
+    <content contentuid="haba405e0gdd79g55dcga2cbg592d66910379" version="1">Mindestpause (Sekunden)</content>
+    <content contentuid="hac05a381g406dg55f7g9ad9g16448711e32a" version="1">Kurze Kinokamera bei normalen Treffern. Standardmäßig aus, kann hektisch wirken.</content>
+    <content contentuid="hacbec05bgdc11g5575g8bf6g50a1430266bf" version="1">Mod aktiviert</content>
+    <content contentuid="hb1186c19gb633g5617gb0e8g2a27ca093aa3" version="1">Sekunden für die Einblendung der Kinokamera.</content>
+    <content contentuid="hb32ff48dgb9a9g5285gbaf8g1222fb9d914d" version="1">Zauber Cam aktiviert</content>
+    <content contentuid="hb9b6d229g78eag572eg8371g8c452e975fa1" version="1">Sichtfeld (FOV)</content>
+    <content contentuid="hbc0fff2egac0cg57dfg88dag96230cc464ec" version="1">Sprint Cam</content>
+    <content contentuid="hbc140a65gabf1g56adga011gcbd70c000820" version="1">Zeitlupenfaktor: 1.0 = keine Zeitlupe, kleiner = langsamer.</content>
+    <content contentuid="hbcab3a9fg1f00g5e08ga03egbedd5dd31119" version="1">So viele Frames Bewegung in Folge, bevor die Kamera auslöst.</content>
+    <content contentuid="hc009a55cg1999g5ebag8a0fgd66b386373a9" version="1">Action Cam aktiviert</content>
+    <content contentuid="hc5d1db91g175dg5c77g8d4agecd8efe2da6f" version="1">Treffer Cam</content>
+    <content contentuid="hc9064f75g65cbg514eg89f2g9ef01f74c8f6" version="1">Tiefe Verfolgerkamera bei Bewegung im Kampf (z.B. Sprint).</content>
+    <content contentuid="hcb1660a5g2a42g5c7cgba1bg93659da4f20d" version="1">Einblendzeit</content>
+    <content contentuid="hcf2b73f5gf1a8g5f5fgb6adgde6eabb2d876" version="1">Haltedauer (Sekunden)</content>
+    <content contentuid="hd1e44615g0949g505bgbafag68b05d4fe3f3" version="1">Ausblendzeit</content>
+    <content contentuid="hd3cc12d6g8397g54d1g86c5g563930745a97" version="1">Sekunden für die Einblendung der Kinokamera.</content>
+    <content contentuid="hd441f017g053eg526fg8363gc82df09d3c57" version="1">Kamerawinkel (Grad)</content>
+    <content contentuid="hd5c29365g4fdbg59c7g8e00g0c9fa7883ac6" version="1">Sichtfeld in Grad. Niedriger = Tele-Effekt, höher = Weitwinkel.</content>
+    <content contentuid="hdafea53fgfe19g55c7ga751gf92ac2f7f86c" version="1">Action Cam</content>
+    <content contentuid="hdf13a3c5gd6d4g5a09gb9a1g597924f674bf" version="1">Zoom</content>
+    <content contentuid="he1b85e5ag99c8g5333g9869gc4af8f56d437" version="1">Kamerawinkel (Grad)</content>
+    <content contentuid="he206e87bg4522g5ac8g9897ged5a86f531fc" version="1">Treffer Cam aktiviert</content>
+    <content contentuid="he71e7c0cgb493g5d4bg9f05gaf2a43ccc86c" version="1">Zoomstufe der Kinokamera. Niedriger = näher dran (normaler Spielzoom ist ca. 5).</content>
+    <content contentuid="he9e0d569g6de6g5a4fg9085g0e692ccf78bd" version="1">Sekunden für die Rückkehr zur normalen Kamera.</content>
+    <content contentuid="heb92279bg517bg514ag866fg870b3bb29376" version="1">Kamerawinkel (Grad)</content>
+    <content contentuid="hf2c19814g71edg50e9g9699g28ff19a6c61d" version="1">Zoom</content>
+    <content contentuid="hf2fbac37g1833g5cb2g97cfgd2b72281b0a2" version="1">Sichtfeld (FOV)</content>
+    <content contentuid="hf370f165gb0feg5f3bg8866g5d436888b708" version="1">Wie lange die Kameraeinstellung gehalten wird (Sekunden, Echtzeit).</content>
+    <content contentuid="hf8c1353bg25d2g5aa1g99a1g2495b5a03d9a" version="1">Einblendzeit</content>
+    <content contentuid="hfac00ab5g1f0ag5d47g8efcg26e039e2a92d" version="1">Zeitlupe während Kill-/Crit-/Treffer-Cam.</content>
+    <content contentuid="hfb5fb1e4g4ba7g59edg8851g8d0f3b9ae445" version="1">Kamerawinkel (Grad)</content>
+    <content contentuid="hfc8b9930g01ecg51f8g8734gc418f1b09df7" version="1">Zeitlupenfaktor</content>
+    <content contentuid="h70b64557gfe52g58f5gb8a7g690532e9056d" version="1">HUD während Kill-Cam ausblenden</content>
+    <content contentuid="h4e839b30g3f71g5dc1g905fga83f3581d6b7" version="1">Blendet das Interface während Kill- und Crit-Cam automatisch aus (simuliert die HUD-Taste des Spiels, standardmäßig F10). Lass die HUD-Taste auf F10 gebunden, damit das funktioniert.</content>
+    <content contentuid="h8f63d33fg5ad1g5242ga221gfa1c63abc10b" version="1">Gegner-Kinokameras</content>
+    <content contentuid="h294daab2g8974g5badg9cc1g2ca28a2c1772" version="1">Kill- und Crit-Cam auch dann, wenn GEGNER deine Gruppenmitglieder kritisch treffen oder niederstrecken. Standardmäßig aus.</content>
+</contentList>
