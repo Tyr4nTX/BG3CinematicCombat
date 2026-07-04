@@ -42,7 +42,7 @@
     <content contentuid="h58ac7be6gb181g5e29gbe93g81d2e2015f2f" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
     <content contentuid="h59c49488g8d7cg5a5ega251g013510ef144b" version="1">Zoomstufe der Kinokamera. Niedriger = näher dran (normaler Spielzoom ist ca. 5).</content>
     <content contentuid="h5a8fdd14gc00bg532ag9671gae97fb4b2812" version="1">Sichtfeld (FOV)</content>
-    <content contentuid="h5b8b166eg1f93g5c42ga9f5g456b565d8c1c" version="1">Schulterkamera ab dem Moment, in dem eine Aktion startet: folgt dem Charakter beim Anlauf, zeigt den Treffer und zoomt am Ende wieder raus. Kill/Crit übernehmen mit Zeitlupe.</content>
+    <content contentuid="h5b8b166eg1f93g5c42ga9f5g456b565d8c1c" version="1">Schulterkamera bei JEDER Aktion (Angriffe, Zauber, Selbst-Buffs): folgt dem Charakter, zeigt den Treffer, zoomt wieder raus. Standardmäßig AUS - für das volle XCOM-Gefühl einschalten; Kill-/Crit-Cam funktionieren auch ohne.</content>
     <content contentuid="h5e3aeb64gdf57g5627g9a2cg74c3d092311c" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
     <content contentuid="h61d554f7g17c3g5f7dg8c83g4368d074bbda" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
     <content contentuid="h63f47ae0g4149g5b61ga7f5gbcea8a9924f2" version="1">Sekunden bis die Kamera herangezoomt ist.</content>
@@ -86,7 +86,7 @@
     <content contentuid="hbcab3a9fg1f00g5e08ga03egbedd5dd31119" version="1">So viele Frames Bewegung in Folge, bevor die Kamera auslöst.</content>
     <content contentuid="hc009a55cg1999g5ebag8a0fgd66b386373a9" version="1">Action Cam aktiviert</content>
     <content contentuid="hc5d1db91g175dg5c77g8d4agecd8efe2da6f" version="1">Treffer Cam</content>
-    <content contentuid="hc9064f75g65cbg514eg89f2g9ef01f74c8f6" version="1">Tiefe Verfolgerkamera bei Bewegung im Kampf (z.B. Sprint).</content>
+    <content contentuid="hc9064f75g65cbg514eg89f2g9ef01f74c8f6" version="1">Tiefe Verfolgerkamera bei Bewegung im Kampf (z.B. Sprint). Standardmäßig AUS.</content>
     <content contentuid="hcb1660a5g2a42g5c7cgba1bg93659da4f20d" version="1">Einblendzeit</content>
     <content contentuid="hcf2b73f5gf1a8g5f5fgb6adgde6eabb2d876" version="1">Haltedauer (Sekunden)</content>
     <content contentuid="hd1e44615g0949g505bgbafag68b05d4fe3f3" version="1">Ausblendzeit</content>

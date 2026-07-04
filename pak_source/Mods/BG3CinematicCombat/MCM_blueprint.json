@@ -102,8 +102,8 @@
                     "Id": "action_enabled",
                     "Name": "Action cam enabled",
                     "Type": "checkbox",
-                    "Default": true,
-                    "Tooltip": "Shoulder camera from the moment an action starts: follows the character during the approach, shows the hit and zooms back out afterwards. Kill/crit cams take over with slow motion.",
+                    "Default": false,
+                    "Tooltip": "Shoulder camera on EVERY action (attacks, spells, self-buffs): follows the character, shows the hit, zooms back out. OFF by default - enable for the full XCOM feel; kill/crit cams work without it.",
                     "Handles": {
                         "NameHandle": "hc009a55cg1999g5ebag8a0fgd66b386373a9",
                         "TooltipHandle": "h5b8b166eg1f93g5c42ga9f5g456b565d8c1c"
@@ -630,8 +630,8 @@
                     "Id": "follow_enabled",
                     "Name": "Dash cam enabled",
                     "Type": "checkbox",
-                    "Default": true,
-                    "Tooltip": "Low chase camera during combat movement (e.g. dash).",
+                    "Default": false,
+                    "Tooltip": "Low chase camera during combat movement (e.g. dash). OFF by default.",
                     "Handles": {
                         "NameHandle": "h5636629dgcba2g5a12g9a5egc7d41a1b4f67",
                         "TooltipHandle": "hc9064f75g65cbg514eg89f2g9ef01f74c8f6"

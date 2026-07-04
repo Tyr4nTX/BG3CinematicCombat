@@ -44,7 +44,7 @@ struct CinematicSettings
     float hitCamTimeScale = 0.8f;
 
     // ---- Action Cam (shoulder cam while an action executes) ----
-    bool  actionCamEnabled = true;
+    bool  actionCamEnabled = false;   // opt-in: always-on cams proved exhausting
     float actionCamZoom = 2.0f;
     float actionCamPitch = 20.0f;
     float actionCamFov = 55.0f;
@@ -53,7 +53,7 @@ struct CinematicSettings
     float actionCamMaxDuration = 8.0f;   // safety timeout if no end event arrives
 
     // ---- Follow Cam (Dash/Sprint) ----
-    bool  followCamEnabled = true;
+    bool  followCamEnabled = false;   // opt-in: dash chase cam
     float followCamZoom = 2.0f;          // medium-close
     float followCamPitch = 10.0f;        // very low angle
     float followCamFov = 65.0f;          // wider
