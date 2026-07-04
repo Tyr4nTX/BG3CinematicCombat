@@ -42,7 +42,7 @@
     <content contentuid="h58ac7be6gb181g5e29gbe93g81d2e2015f2f" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
     <content contentuid="h59c49488g8d7cg5a5ega251g013510ef144b" version="1">Zoomstufe der Kinokamera. Niedriger = näher dran (normaler Spielzoom ist ca. 5).</content>
     <content contentuid="h5a8fdd14gc00bg532ag9671gae97fb4b2812" version="1">Sichtfeld (FOV)</content>
-    <content contentuid="h5b8b166eg1f93g5c42ga9f5g456b565d8c1c" version="1">Schulterkamera bei JEDER Aktion (Angriffe, Zauber, Selbst-Buffs): folgt dem Charakter, zeigt den Treffer, zoomt wieder raus. Standardmäßig AUS - für das volle XCOM-Gefühl einschalten; Kill-/Crit-Cam funktionieren auch ohne.</content>
+    <content contentuid="h5b8b166eg1f93g5c42ga9f5g456b565d8c1c" version="1">Schulterkamera, wenn du gegen einen GEGNER handelst: folgt dem Anlauf, zeigt den Treffer; Kill-/Crit-Cam übernehmen mit Zeitlupe. Feuert nie bei Selbst-Buffs, Zaubern auf Verbündete oder Angriffen auf Objekte.</content>
     <content contentuid="h5e3aeb64gdf57g5627g9a2cg74c3d092311c" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
     <content contentuid="h61d554f7g17c3g5f7dg8c83g4368d074bbda" version="1">Kamerawinkel in Grad. Niedriger Winkel = dramatischer.</content>
     <content contentuid="h63f47ae0g4149g5b61ga7f5gbcea8a9924f2" version="1">Sekunden bis die Kamera herangezoomt ist.</content>

@@ -43,8 +43,8 @@ struct CinematicSettings
     float hitCamTransitionOut = 0.4f;
     float hitCamTimeScale = 0.8f;
 
-    // ---- Action Cam (shoulder cam while an action executes) ----
-    bool  actionCamEnabled = false;   // opt-in: always-on cams proved exhausting
+    // ---- Action Cam (shoulder cam while acting against an enemy) ----
+    bool  actionCamEnabled = true;    // Lua side only sends events for enemy targets
     float actionCamZoom = 2.0f;
     float actionCamPitch = 20.0f;
     float actionCamFov = 55.0f;

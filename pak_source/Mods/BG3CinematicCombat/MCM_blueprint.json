@@ -102,8 +102,8 @@
                     "Id": "action_enabled",
                     "Name": "Action cam enabled",
                     "Type": "checkbox",
-                    "Default": false,
-                    "Tooltip": "Shoulder camera on EVERY action (attacks, spells, self-buffs): follows the character, shows the hit, zooms back out. OFF by default - enable for the full XCOM feel; kill/crit cams work without it.",
+                    "Default": true,
+                    "Tooltip": "Over-the-shoulder camera when you act against an ENEMY: follows the run-up, catches the hit; kill/crit cams take over with slow motion. Never triggers for self-buffs, ally spells or attacks on objects.",
                     "Handles": {
                         "NameHandle": "hc009a55cg1999g5ebag8a0fgd66b386373a9",
                         "TooltipHandle": "h5b8b166eg1f93g5c42ga9f5g456b565d8c1c"

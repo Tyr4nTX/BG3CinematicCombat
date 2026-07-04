@@ -62,14 +62,13 @@ TransitionOut = 0.4
 TimeScale = 0.8
 
 # ============================================================================
-# Action Cam - shoulder cam from the moment an action starts until it ends.
-# Follows the character during the run-up, catches the hit; a kill or crit
-# upgrades it to the kill/crit cam with slow motion.
-# OFF by default: it triggers on EVERY action (attacks, spells, self-buffs),
-# which can be a lot. Enable it for the full XCOM experience.
+# Action Cam - shoulder cam when you act AGAINST AN ENEMY: follows the
+# run-up, catches the hit; a kill or crit upgrades it to the kill/crit cam
+# with slow motion. Does NOT trigger for self-buffs, ally spells, attacks on
+# objects or ground-targeted casts.
 # ============================================================================
 [ActionCam]
-Enabled = false
+Enabled = true
 Zoom = 2.0
 Pitch = 20.0
 FOV = 55.0
