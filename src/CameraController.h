@@ -77,6 +77,8 @@ private:
 
     double m_lastFrameTime = 0.0;
     bool   m_hasLastFrame = false;
+    double m_lastPreTime = 0.0;
+    bool   m_hasLastPre = false;
     int    m_diagCounter = 0;
     float  m_lastDesiredYaw = 0.f;
 

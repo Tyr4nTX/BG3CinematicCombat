@@ -108,9 +108,28 @@ void CameraController::PreApply(RE::CameraObject* cam)
         desiredYaw += 180.f;
     }
 
+    // TIME-based smooth turn. The old version applied a fraction of the
+    // remaining arc PER FRAME, which snapped near-instantly on high FPS.
+    // dt is additionally scaled by the current time scale so that during
+    // slow motion the turn pans with the slowed world - a deliberate
+    // cinematic sweep instead of a real-time snap.
+    double now = TimeManager::RealSeconds();
+    float dt = 0.016f;
+    if (m_hasLastPre) {
+        dt = std::clamp(static_cast<float>(now - m_lastPreTime), 0.0001f, 0.1f);
+    }
+    m_hasLastPre = true;
+    m_lastPreTime = now;
+    float dtEff = dt * TimeManager::GetTimeScale();
+
     float diff = AngleDiffDeg(cam->angle, desiredYaw);
-    // Smooth turn: ~12% of the remaining arc per frame at full weight
-    cam->angle += diff * 0.12f * m_easedWeight;
+    // Exponential ease (~63% of the arc in 0.25s, ~95% in 0.75s)...
+    float k = 1.f - expf(-dtEff * 4.0f);
+    float step = diff * k * m_easedWeight;
+    // ...with a hard cap so even 180-degree turns never whip
+    float maxStep = 240.f * dtEff;
+    step = std::clamp(step, -maxStep, maxStep);
+    cam->angle += step;
 
     m_lastDesiredYaw = desiredYaw;
 }
