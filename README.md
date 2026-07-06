@@ -2,7 +2,8 @@
 
 XCOM-style cinematic combat camera for **Baldur's Gate 3**: kill cams with slow
 motion, crit cams, an over-the-shoulder action cam, hit cams and a dash cam —
-all configurable ingame via [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162)
+with automatic HUD hiding during kill/crit cams for a clean frame — all
+configurable ingame via [Mod Configuration Menu](https://www.nexusmods.com/baldursgate3/mods/9162)
 (English + German UI).
 
 **Download & installation:** see the mod page on Nexus Mods.
@@ -26,6 +27,17 @@ Notable implementation details, learned the hard way:
   frame — position writes do not survive. Zoom (`desiredZoom`), pitch (via a
   `CalculateCameraPitch` return-value hook) and yaw (`angle`, persistent
   state) are the controllable channels.
+- When a kill ends the fight, the engine re-targets the camera to the main
+  character *while the slow motion is still running*. The pan goal is
+  re-derived every frame from the `GameCameraBehavior` component's `Targets`
+  array — pinning position fields only fights the integrator one step behind
+  (visible jitter). The client-side fix replaces `Targets[1]` with the killer
+  for the kill-cam window, so the engine computes the pan goal itself and
+  there is nothing left to fight.
+- The HUD is hidden during kill/crit cams by writing `Visibility` on named
+  Noesis widgets (client-side Lua, no key simulation). Stored Noesis node
+  references die within seconds — hide *and* restore must do fresh lookups
+  by widget name.
 - Camera memory layout and hook points are based on the reverse engineering
   work of [ersh1/BG3_NativeCameraTweaks](https://github.com/ersh1/BG3_NativeCameraTweaks) (GPL-3.0).
 

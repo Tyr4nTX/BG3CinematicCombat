@@ -46,6 +46,17 @@
                     }
                 },
                 {
+                    "Id": "hide_hud",
+                    "Name": "Hide HUD during kill/crit cam",
+                    "Type": "checkbox",
+                    "Default": true,
+                    "Tooltip": "Hides the interface during kill and crit cams and restores it afterwards. Implemented via the game UI directly - no key simulation.",
+                    "Handles": {
+                        "NameHandle": "h70b64557gfe52g58f5gb8a7g690532e9056d",
+                        "TooltipHandle": "h4e839b30g3f71g5dc1g905fga83f3581d6b7"
+                    }
+                },
+                {
                     "Id": "pan_to_target",
                     "Name": "Camera faces the target",
                     "Type": "checkbox",

@@ -41,6 +41,10 @@ private:
     bool        m_hasLastPos = false;
     int         m_consecutiveMovementFrames = 0;
 
+    // Anchor-teleport detection during active cinematics
+    RE::Vector3 m_jumpRefPos{};
+    bool        m_hasJumpRef = false;
+
     // IPC polling
     int m_framesSinceEventPoll = 0;
     int m_framesSinceSettingsPoll = 0;

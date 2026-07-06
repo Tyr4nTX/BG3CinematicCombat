@@ -107,8 +107,8 @@
     <content contentuid="hfac00ab5g1f0ag5d47g8efcg26e039e2a92d" version="1">Zeitlupe während Kill-/Crit-/Treffer-Cam.</content>
     <content contentuid="hfb5fb1e4g4ba7g59edg8851g8d0f3b9ae445" version="1">Kamerawinkel (Grad)</content>
     <content contentuid="hfc8b9930g01ecg51f8g8734gc418f1b09df7" version="1">Zeitlupenfaktor</content>
-    <content contentuid="h70b64557gfe52g58f5gb8a7g690532e9056d" version="1">HUD während Kill-Cam ausblenden</content>
-    <content contentuid="h4e839b30g3f71g5dc1g905fga83f3581d6b7" version="1">Blendet das Interface während Kill- und Crit-Cam automatisch aus (simuliert die HUD-Taste des Spiels, standardmäßig F10). Lass die HUD-Taste auf F10 gebunden, damit das funktioniert.</content>
+    <content contentuid="h70b64557gfe52g58f5gb8a7g690532e9056d" version="1">HUD während Kill-/Crit-Cam ausblenden</content>
+    <content contentuid="h4e839b30g3f71g5dc1g905fga83f3581d6b7" version="1">Blendet das Interface während Kill- und Crit-Cam aus und stellt es danach wieder her. Läuft direkt über die Spiel-UI - keine Tastensimulation.</content>
     <content contentuid="h8f63d33fg5ad1g5242ga221gfa1c63abc10b" version="1">Gegner-Kinokameras</content>
     <content contentuid="h294daab2g8974g5badg9cc1g2ca28a2c1772" version="1">Kill- und Crit-Cam auch dann, wenn GEGNER deine Gruppenmitglieder kritisch treffen oder niederstrecken. Standardmäßig aus.</content>
 </contentList>

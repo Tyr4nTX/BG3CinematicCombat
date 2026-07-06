@@ -107,8 +107,8 @@
     <content contentuid="hfac00ab5g1f0ag5d47g8efcg26e039e2a92d" version="1">Slow motion during kill/crit/hit cams.</content>
     <content contentuid="hfb5fb1e4g4ba7g59edg8851g8d0f3b9ae445" version="1">Camera angle (degrees)</content>
     <content contentuid="hfc8b9930g01ecg51f8g8734gc418f1b09df7" version="1">Slow motion factor</content>
-    <content contentuid="h70b64557gfe52g58f5gb8a7g690532e9056d" version="1">Hide HUD during kill cam</content>
-    <content contentuid="h4e839b30g3f71g5dc1g905fga83f3581d6b7" version="1">Automatically hides the interface during kill and crit cams (simulates the game&#x27;s HUD toggle key, F10 by default). Keep the HUD toggle bound to F10 for this to work.</content>
+    <content contentuid="h70b64557gfe52g58f5gb8a7g690532e9056d" version="1">Hide HUD during kill/crit cam</content>
+    <content contentuid="h4e839b30g3f71g5dc1g905fga83f3581d6b7" version="1">Hides the interface during kill and crit cams and restores it afterwards. Implemented via the game UI directly - no key simulation.</content>
     <content contentuid="h8f63d33fg5ad1g5242ga221gfa1c63abc10b" version="1">Enemy cinematics</content>
     <content contentuid="h294daab2g8974g5badg9cc1g2ca28a2c1772" version="1">Kill and crit cams also trigger when ENEMIES critically hit or take down YOUR party members. Off by default.</content>
 </contentList>

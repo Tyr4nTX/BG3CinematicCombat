@@ -82,6 +82,33 @@ void CinematicManager::Tick(RE::CameraObject* cam, RE::CameraDefinition* def)
         }
     }
 
+    // --- Anchor-teleport detection ---
+    // On the final kill of a fight the engine hands control back to the
+    // pre-combat character and teleports the camera anchor to them mid-
+    // cinematic. The anchor position is not ours to control, so the close-up
+    // cannot stay on the victim - but the SLOW MOTION can play out in full:
+    // only the camera zooms back quickly, the time scale keeps running until
+    // the planned hold ends. Sequence the player sees: victim slow-mo ->
+    // smooth zoom-out to the returning character, still in slow motion ->
+    // time ramps back to normal.
+    if (m_state != State::Idle && m_state != State::Returning) {
+        if (m_hasJumpRef) {
+            float jdx = cam->cameraRootPos.x - m_jumpRefPos.x;
+            float jdz = cam->cameraRootPos.z - m_jumpRefPos.z;
+            if (jdx * jdx + jdz * jdz > 36.f) {   // > 6 meters in one frame
+                spdlog::info("[Cinematic] Camera anchor teleported ({:.1f}m) - releasing camera, slow motion continues",
+                    sqrtf(jdx * jdx + jdz * jdz));
+                // Camera-only fast release; state and time scale stay until
+                // the hold timer expires through the normal path above.
+                CameraController::Get().BeginReturn(0.35f);
+            }
+        }
+        m_jumpRefPos = cam->cameraRootPos;
+        m_hasJumpRef = true;
+    } else {
+        m_hasJumpRef = false;
+    }
+
     // When the controller finished returning on its own, go idle
     if (m_state == State::Returning && !CameraController::Get().IsActive()) {
         m_state = State::Idle;

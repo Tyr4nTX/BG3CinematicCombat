@@ -9,8 +9,9 @@ tools/
 # Release packaging output (published via GitHub Releases / Nexus instead)
 release/
 
-# Legacy sync copy of the pak sources
-ScriptExtender/
+# Legacy sync copy of the pak sources (root level only - the pattern must
+# NOT swallow pak_source/Mods/*/ScriptExtender/, where the Lua lives!)
+/ScriptExtender/
 
 # Local backups
 _loose_DataMods_backup*/
